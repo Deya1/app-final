@@ -1,0 +1,58 @@
+*{
+  margin:0;
+  padding: 0;
+}
+.btn{
+  background-color: lightblue;
+  border:1px solid black;
+  margin-right: 10px;
+  height: 30px;
+  width: 100px;
+  justify-content: center;
+}
+.btn:hover{
+  cursor: pointer
+}
+.PaletaColores{
+  margin-top: 10px;
+}
+.cuadros{
+  border:.1px solid black;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+}
+.cuadros:hover{
+  cursor: pointer
+}
+.cuadros2{
+  border:.1px solid black;
+  width: 30px;
+  height: 30px;
+  list-style:none;
+}
+.cuadros2:hover{
+  cursor: pointer
+}
+.Lienzo{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.Impresion{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.btn1{
+  background-color: lightblue;
+  border:1px solid black;
+  margin-right: 10px;
+  height: 30px;
+  width: 100px;
+  justify-content: center;
+  margin-top: 150px;
+}
+
