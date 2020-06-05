@@ -91,7 +91,7 @@ const App = ({ savedChanges }) => {
 
   const pedirColores = () => {
     setLoading(true)
-    fetch('http://api.noopschallenge.com/hexbot?count=10')
+    fetch('https://api.noopschallenge.com/hexbot?count=10')
       .then((res)=> res.json())
       .then((data)=> {
         setColores(data.colors)
